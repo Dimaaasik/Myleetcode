@@ -17,7 +17,7 @@ Output: "10101"
  var addBinary = function(a, b) {
      let answer =  BigInt(`0b${a}`) + BigInt(`0b${b}`);
 
-     return answer
+     return answer.toString(2);
  };
 
 
